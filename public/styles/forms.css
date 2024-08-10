@@ -1,0 +1,63 @@
+html {
+    background-color: #f9f9f9;
+    margin: 2%;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: 'Lexend', sans-serif;
+}
+
+.content h1 {
+    color: #3b5152;
+    margin: 0;
+}
+
+p.intro {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+label {
+    margin: 10px;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: 5px;
+    background-color: #d1e0e0;
+    border: 2px solid #333;
+    border-radius: 0;
+    font-family: 'Lexend', sans-serif;
+    align-items: center;
+}
+
+select {
+    font-family: 'Lexend', sans-serif;
+    color: #333;
+    text-align: center;
+    margin: 5px;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.button:hover {
+    opacity: 1;
+}

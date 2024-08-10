@@ -1,0 +1,7 @@
+dog:poodle:Less than 1 year:Male:yes::Khalil:khalil.labban@yahoo.com
+dog:bruh:Less than 1 year:Male:no:bruh:Khalil:khalil.labban@yahoo.com
+dog:Beagle:More than 10 years:Female:yes:fuck off:Khalil:khalil.labban@yahoo.com
+dog:Beagle:Less than 1 year:Female:yes:no:Khalil:khalil.labban@yahoo.com
+dog:husky:1 - 3 years:Male:yes:kys:Khalil:khalil.labban@yahoo.com
+dog:golden doodle:Less than 1 year:Male:yes:nah:Khalil:khalil.labban@yahoo.com
+dog:bruh:More than 10 years:Female:yes:bruh:Khalil:khalil.labban@yahoo.com

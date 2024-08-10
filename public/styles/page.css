@@ -1,0 +1,23 @@
+html {
+    background-color: #f9f9f9;
+    margin: 2%;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: 'Lexend', sans-serif;
+}
+
+.container {
+    align-items: center;
+    display: grid;
+    margin: 10px;
+    grid-template-rows: 1fr 5fr;
+}
+
+.content {
+    align-self: start;
+    font-family: 'Lexend', sans-serif;
+    padding: 2%;
+}

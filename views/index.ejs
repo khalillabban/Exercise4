@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Index - Khalil's Adoption Service</title>
+    <link rel="stylesheet" href="/styles/page.css">
+    <link rel="stylesheet" href="/styles/default.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+</head>
+<body>
+<%- include("partials/header.ejs")%>
+<div class="container">
+    <%- include("partials/sidemenu.ejs") %>
+    <% if (typeof message !== 'undefined') { %>
+        <p><%= message %></p>
+    <% } %>
+    <div class="content">
+        <div class="home">
+            <h1>Welcome to Khalil's Pet Adoption Service</h1>
+            <p>At Khalil's Pet Adoption Service, we are dedicated to helping you find your perfect furry companion. Whether you're looking to adopt a cat or a dog, we have a variety of loving animals waiting for a forever home.</p>
+            <p>Explore our website to browse available pets, find helpful information on pet care, and learn more about our adoption process. We are committed to ensuring every pet finds a loving family.</p>
+    
+            <h3>What We Offer</h3>
+            <ul>
+                <li><strong>Diverse Selection:</strong> Various breeds of cats and dogs available for adoption.</li>
+                <li><strong>Support:</strong> Guidance throughout the adoption process.</li>
+                <li><strong>Resources:</strong> Information on pet care and training.</li>
+            </ul>
+
+            <h3>What Our Adopters Say</h3>
+            <blockquote>
+                "Adopting my dog from Khalil's was the best decision I've ever made! The support was incredible." 
+                <cite>- Happy Adopter</cite>
+            </blockquote>
+        </div>
+    </div>
+</div>
+<%- include("partials/footer.ejs")%>
+
+<script src="/public/scripts/script.js"></script>
+</body>
+</html>
